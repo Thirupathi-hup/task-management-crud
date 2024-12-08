@@ -18,7 +18,7 @@ Follow these steps to set up the project locally:
 # Clone this repository:
 
 bash Copy code
-git clone https://github.com/yourusername/task-management-api.git
+git clone  Thirupathi-hup/task-management-crud
 Navigate to the project directory:
 
 bash Copy code
