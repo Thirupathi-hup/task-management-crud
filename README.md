@@ -81,6 +81,8 @@ Example:
 
 bash Copy code
 GET /tasks?status=TODO&priority=HIGH&sort=createdAt&limit=10&skip=20
+
+
 Response:
 
 json Copy code
@@ -111,6 +113,9 @@ Request URL:
 
 bash Copy code
 GET /tasks/:id
+
+
+
 Response:
 
 json
@@ -148,6 +153,9 @@ Copy code
   "updatedAt": "2024-12-09T00:00:00Z"
 }
 DELETE /tasks/:id - Delete a Task
+
+
+
 Response:
 
 Success: 204 No Content
@@ -158,6 +166,8 @@ The API uses proper error handling to return meaningful HTTP status codes:
 400 Bad Request: Invalid data in the request.
 404 Not Found: Task not found.
 500 Internal Server Error: Server issues.
+
+
 Example error response:
 
 json Copy code
