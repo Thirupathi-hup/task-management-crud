@@ -9,7 +9,6 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 5000;
 
-
 app.use(express.json());
 
 
@@ -28,6 +27,5 @@ mongoose
     });
   })
   .catch((err) => {
-    console.log('Database connection failed:', err);
+    console.error('Database connection failed:', err);
   });
-
