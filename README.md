@@ -19,10 +19,7 @@ Follow these steps to set up the project locally:
 
 bash Copy code
 git clone  Thirupathi-hup/task-management-crud
-Navigate to the project directory:
 
-bash Copy code
-cd task-management
 
 
 # Install dependencies:
@@ -36,11 +33,14 @@ Set up a .env file in the root directory of the project with the following varia
 
 # bash Copy code
 MONGODB_URI=mongodb://your-mongo-uri
+
 PORT=5000
+
 Start the server:
 
 # bash Copy code
 npm start
+
 The server will run at http://localhost:5000.
 
 ### API Endpoints
